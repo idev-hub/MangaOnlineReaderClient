@@ -1,0 +1,48 @@
+name: mangaonline
+description: Reading client for manga from manga.online service
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  http: ^0.12.0+4
+  extended_image: ^0.7.1
+  flutter_secure_storage: ^3.3.1+1
+
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/icons/
+  fonts:
+    - family: NunitoBlack
+      fonts:
+        - asset: assets/fonts/NunitoBlack.ttf
+    - family: NunitoBold
+      fonts:
+        - asset: assets/fonts/NunitoBold.ttf
+    - family: NunitoExtraBold
+      fonts:
+        - asset: assets/fonts/NunitoExtraBold.ttf
+    - family: NunitoExtraLight
+      fonts:
+        - asset: assets/fonts/NunitoExtraLight.ttf
+    - family: NunitoLight
+      fonts:
+        - asset: assets/fonts/NunitoLight.ttf
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/NunitoRegular.ttf
+    - family: NunitoSemiBold
+      fonts:
+        - asset: assets/fonts/NunitoSemiBold.ttf
